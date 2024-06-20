@@ -4,6 +4,14 @@
     color: #FFFFFF;
 }
 
+.poppins {
+    font-family: "poppins";
+}
+
+.Bakbak {
+    font-family: "Bakbak One";
+}
+
 .container {
     width: 75vw;
 }
@@ -14,7 +22,7 @@
 }
 
 .sunss img {
-    width: 25px;
+    width: 35px;
 }
 
 .discard img {
@@ -420,9 +428,8 @@ h1 {
 }
 
 /* aboutUs start */
-
-.poppins {
-    font-family: "poppins";
+.counter{
+    text-shadow: 0px 1px 4px white;
 }
 
 .aboutUs {
@@ -456,7 +463,7 @@ h1 {
 .aboutUs span {
     color: #C2C3C5;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .readMore {
@@ -508,9 +515,7 @@ h1 {
     margin-top: 25px;
 }
 
-.Bakbak {
-    font-family: "Bakbak One";
-}
+
 
 .cardTitle {
     font-family: "Bakbak One";

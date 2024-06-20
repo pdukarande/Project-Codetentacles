@@ -256,7 +256,7 @@ nav ul li {
 }
 
 .main {
-    background-image: url(./assets/illustration/mobile_comm\ 1.png');
+    background-image: url(assets/illustration/mobile_comm\ 1.png');
 
     background-position: top center;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ nav ul li {
     width: 100%;
     height: 352.62px;
     bottom: 0px;
-    background-image: url("./assets/background/Rectangle.png");
+    background-image: url("assets/background/Rectangle.png");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -427,7 +427,7 @@ h1 {
 
 .aboutUs {
     background: #040B11;
-    background-image: url(./assets/background/Vector.png);
+    background-image: url(assets/background/Vector.png);
     background-repeat: no-repeat;
     background-position-x: 88vw;
     background-size: 18vw;
@@ -440,7 +440,7 @@ h1 {
 }
 
 .vector {
-    background-image: url("./assets/background/Vector.png");
+    background-image: url("assets/background/Vector.png");
     background-repeat: no-repeat;
     background-position: left;
     background-size: auto;
@@ -527,7 +527,7 @@ h1 {
 .sponcers {
     background: #040B11;
     padding-top: 100px;
-    background-image: url(./assets/background/Vector.png);
+    background-image: url(assets/background/Vector.png);
     background-repeat: no-repeat;
     background-size: 25vw;
     background-position-x: -13vw;

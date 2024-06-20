@@ -29,6 +29,7 @@
     width: 15px;
 }
 
+
 .connect img {
     width: 15px;
 }
@@ -177,6 +178,9 @@ nav ul li {
     cursor: pointer;
 }
 
+.hamB a{
+    font-size: 20px;
+}
 /*  */
 .list li {
     position: relative;
@@ -241,7 +245,6 @@ nav ul li {
 
 .connect {
     background: #21E786;
-    padding: 5px 15px !important;
     border-radius: 5px;
     font-weight: 700;
     font-size: 14PX;
@@ -255,9 +258,8 @@ nav ul li {
     background-color: #040B11;
     color: #FFFFFF;
     border: 2px solid #21E786;
-    padding: 5px;
     border-radius: 5px;
-    /* padding: 10PX 15px; */
+    padding: 10PX 15px;
     font-weight: 700;
     font-size: 14PX;
     margin-left: 7px;
@@ -311,18 +313,18 @@ h1 {
 
 .desc_para {
     width: 69%;
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .buttonszz {
-    width: 25%;
+    width: 35%;
     font-size: 8px;
 }
 
 /* How to start */
 .howto {
     background-color: #040B11;
-    padding-top: 10vh;
+    padding-top: 13vh;
 }
 
 .greenCLr {
@@ -473,8 +475,8 @@ h1 {
     color: #FFFFFF;
     text-align: center;
     font-size: 16px;
-    padding: 10px;
-    width: 141px;
+    padding: 5px;
+    width: 125px;
 }
 
 .readMore span {
@@ -546,14 +548,29 @@ h1 {
     text-align: center;
 }
 
-.logoWidth:nth-child(even) {
-    background: #141B22;
-  }
+
 .logoWidth img {
     width: 75%;
 }
 
+@media screen and (min-width: 480px) {
+    .buttonszz{
+        width: 28%;
+        font-size: 11px;
+        
+    }
+    .desc_para{
+        font-size: 12px;
+    } 
+}
+
 @media screen and (min-width: 576px) {
+    .buttonszz {
+        width: 25%;
+    }
+    .howto {
+        padding-top: 10vh;
+    }
     .cardMain {
         justify-content: space-between;
     }
@@ -578,6 +595,9 @@ h1 {
         position: relative;
 
     }
+    .logoWidth:nth-child(even) {
+        background: #141B22;
+      }
 
     .cardAboutwidth {
         transition: 0.3s;
@@ -681,7 +701,7 @@ h1 {
     }
 
     .howto {
-        padding-top: 30vh;
+        padding-top: 25vh;
     }
 
     .align {

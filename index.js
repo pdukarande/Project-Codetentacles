@@ -11,10 +11,14 @@ function toggleNav() {
     var sidepanel = document.getElementById("mySidepanel");
     sidepanel.classList.toggle('open');  
   }
-  function closeNav() {
-    var sidepanel = document.getElementById("mySidepanel");
-    sidepanel.classList.remove('open'); // Ensure the 'open' class is removed
-  }
+  // function closeNav() {
+  //   var sidepanel = document.getElementById("mySidepanel");
+  //   sidepanel.classList.remove('open'); // Ensure the 'open' class is removed
+  // }
+
+  document.querySelector('.hamburger').addEventListener('click', (e) => {
+    e.currentTarget.classList.toggle('is-active');
+  })
 
 
   
